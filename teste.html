@@ -8,9 +8,20 @@
 <!-- Search Form -->
 <form class="searchForm" role="search" method="GET" action="https://wol.jw.org/pt/wol/h/r5/lp-t">
   <div class="speech">
-    <input type="text" name="q" id="transcript" placeholder="Speak" />
+    <input class="searchField" type="text" name="q" id="transcript" placeholder="Speak" accept-charset="utf-8" type="text" title="Operadores de busca: * = qualquer texto; ? = qualquer caracter; &quot;&nbsp;&quot; = expressão exata; &amp; = E; | = OU; ! = NÃO; () = grupo" aria-label="Digite um assunto ou uma citação bíblica" placeholder="Digite um assunto" autocomplete="off" autocapitalize="off" autocorrect="off" autofocus="autofocus" spellcheck="false" maxlength="256" value="" />
     <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
-  </div>
+        <span class="searchFieldCancel" style="display: none;" wfd-invisible="true"><span class="icon"></span></span>
+			</div>
+	<div class="searchControlContainer">
+		<input type="hidden" name="p" value="par" wfd-invisible="true">
+        <input type="hidden" name="r" value="occ" wfd-invisible="true">
+        <input class="searchButton" type="submit" value="PESQUISAR">
+	</div>
+    <div class="searchControlButtons">
+        <span class="searchIcon menuButton" wfd-invisible="true"><span class="icon"></span></span>
+        <span class="closeIcon menuButton"><span class="icon"></span></span>
+    </div>
+    	<div class="suggestions hidden" wfd-invisible="true"><div></div></div>
 </form>
 
 <!-- HTML5 Speech Recognition API -->

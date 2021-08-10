@@ -1,9 +1,10 @@
 {
-  "products": [
+  "Usuario": [
     {
-      "id": 1,
-      "name": "Samsung J7 Prime",
-      "price": 1299
+      "idUsuario": 1
+    },
+    {
+      "idUsuario": 2
     }
   ],
   "profile": {

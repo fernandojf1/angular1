@@ -2,11 +2,13 @@
     "posts": [
       {
         "id": 1,
-        "title": "Samsung J7 Prime"
+        "name": "Samsung J7 Prime",
+        "price": 1399
       },
       {
         "id": 2,
-        "title": "Samsung J5 Prime"
+        "name": "Samsung J5 Prime",
+        "price": 899
       }      
     ],
     "profile": {

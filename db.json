@@ -1,0 +1,14 @@
+{
+  "Product": [
+    {
+      "id": 1,
+      "name": "Samsung J7 Prime",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "name": "Samsung J5 Prime",
+      "price": 999
+    },
+  ]
+}
